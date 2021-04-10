@@ -1,0 +1,35 @@
+.container{
+background: #1c1c1c;
+    margin: 0;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.list1{
+    list-style: none;
+}
+
+
+.list2{
+    list-style: none;
+}
+
+.list2 li{
+    margin: 10px;
+    width: 400px;
+}
+
+.list1 li{
+    margin: 10px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        justify-content: center;
+    }
+    .list2 {
+        display: none;
+    }
+}

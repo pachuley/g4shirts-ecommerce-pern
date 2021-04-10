@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #282828;
+  color: #afafaf;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

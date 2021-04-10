@@ -1,0 +1,67 @@
+.nombreLista {
+  color: white;
+  font-weight: lighter;
+}
+
+.meContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+}
+
+.centrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teDe {
+  display: flex;
+  background-color: #3f3f3f;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  justify-content: flex-end;
+}
+
+.cardHistorial {
+  margin: 20px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ordenorden {
+  font-weight: lighter;
+  color: white;
+  font-size: 20px;
+  background: #f16800;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 13px;
+}
+
+.total {
+  font-weight: lighter;
+  color: white;
+  font-size: 20px;
+  background: #1c1c1c;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 13px;
+}
+
+.titual {
+  font-weight: lighter;
+  color: white;
+}
+.cardHistorial Link {
+  color: white;
+}

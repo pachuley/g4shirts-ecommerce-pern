@@ -1,0 +1,210 @@
+.Container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.productCardContainer {
+  display: flex;
+  width: 25%;
+  max-height: 45rem;
+
+  margin: 2rem auto;
+
+  justify-content: space-around;
+}
+
+.backCard {
+  background-color: #1c1c1c;
+  width: 22rem;
+}
+
+.imgSize {
+  width: 22rem;
+}
+
+.priceUbi {
+  position: relative;
+}
+
+.textCard {
+  color: white;
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.nameLink {
+  color: white;
+  text-decoration: none;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  border: none;
+  color: white;
+  background-color: #1c1c1c;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.type {
+  color: #656565;
+}
+
+.sizeList {
+  display: flex;
+  list-style: none;
+  margin-left: -15px;
+}
+
+.itemList {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 17px;
+  font-family: Poppins;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.itemList:hover {
+  background-color: #ff7b06;
+}
+
+.itemList:focus {
+  background-color: #ff7b06;
+  outline: none;
+}
+
+.priceContainer {
+  margin-top: 10px;
+  position: absolute;
+  top: -1.4rem;
+  left: 14rem;
+}
+
+.price {
+  color: #ff7b06;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.cartButton {
+  margin-bottom: 30px;
+  border: none;
+  padding: 1rem 6em 1rem 6em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7b06;
+  cursor: pointer;
+  outline: none;
+}
+
+.cartButton:hover {
+  background-color: #ff6a00;
+  transition: 0.1s;
+}
+
+.buttonImg {
+  border: none;
+  padding: 0;
+  background-color: #ff7b06;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 21.8rem;
+  height: 34.3rem;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: #363636;
+  border-radius: 0;
+  border: none;
+  outline: none;
+}
+
+.imgModal {
+  width: 25rem;
+  height: 32rem;
+  position: absolute;
+  left: -48.8%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 900px) {
+  .modal {
+    left: 50%;
+  }
+  .imgModal {
+    display: none;
+  }
+}
+
+.titleModal {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.typeModal {
+  font-weight: lighter;
+  margin-top: -1.5rem;
+}
+
+.descriptionModal {
+  font-weight: lighter;
+  color: white;
+}
+
+.modalButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.modalButtonClose {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.priceModal {
+  position: absolute;
+  left: 70%;
+  font-size: 1.5rem;
+  top: 8.5%;
+  color: #ff7b06;
+}
+.noStockModal,
+.noStockCard {
+  color: darkgrey;
+  cursor: default;
+}
+.noStockModal:hover,
+.noStockModal:focus {
+  background-color: #363636;
+}
+
+.noStockCard:focus,
+.noStockCard:hover {
+  background-color: #1c1c1c;
+}

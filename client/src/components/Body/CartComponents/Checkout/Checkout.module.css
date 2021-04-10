@@ -1,0 +1,231 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  background-color: #1c1c1c;
+  justify-content: center;
+}
+
+.cardElement {
+  width: 5em;
+  height: 0.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 5em;
+}
+
+.list {
+  color: white;
+  font-weight: lighter;
+  border-bottom: 1px solid white;
+  padding: 0px 10px;
+}
+
+.listItem {
+  font-weight: lighter;
+  color: white;
+}
+
+.listItemText {
+  font-weight: lighter;
+  padding: 5px;
+  text-align: left;
+  color: white;
+}
+
+.ticket {
+  color: white;
+  font-weight: lighter;
+  background-color: #1c1c1c;
+  padding: 20px;
+}
+
+.divPadre {
+  display: flex;
+}
+
+.div1 {
+  background: #1c1c1c;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.tituloResumen {
+  color: white;
+  font-weight: lighter;
+  margin: 0 20px 15px 2px;
+  text-align: left;
+  font-size: 24px;
+}
+
+.total {
+  color: #a6a6a6;
+  font-weight: lighter;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.totalNumerico {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.div2 {
+  background: #363636;
+  margin-top: 3rem;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.div2 label {
+  color: white;
+  font-weight: lighter;
+}
+
+.div2 input {
+  border: none;
+  color: white;
+  background-color: #1c1c1c;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-family: Poppins;
+  width: 250px;
+}
+
+.internDiv1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.internDiv2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.internDiv3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.medioEfvo {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 20px 0px 0px 8px;
+}
+
+.buttonMedioEfvo {
+  margin: 20px 0px 20px 0px;
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #ff7b06;
+  font-family: Poppins;
+  cursor: pointer;
+  margin-right: -10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.buttonMedioTarjeta {
+  margin: 20px 0px 20px 0px;
+  border: none;
+  padding: 10px;
+  color: white;
+  background-color: #ff7b06;
+  font-family: Poppins;
+  cursor: pointer;
+  margin-right: -10px;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.buttonMedioTarjeta:hover {
+  background-color: #ff8f06;
+  transition: 0.2s;
+}
+
+.buttonMedioEfvo:hover {
+  background-color: #ff8f06;
+  transition: 0.2s;
+}
+
+.button1 {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  color: white;
+  font-family: Poppins;
+  background-color: #c62b07;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+
+.button2 {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 50%;
+  color: white;
+  font-family: Poppins;
+  background-color: #0076de;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.button2:hover {
+  background-color: #0089ff;
+  transition: 0.2s;
+}
+
+.button1:hover {
+  background-color: #ff340c;
+  transition: 0.2s;
+}
+
+@media (max-width: 900px) {
+  .divPadre {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .div1 {
+    width: 85%;
+    margin: 1rem auto;
+  }
+  .div2 {
+    width: 70%;
+    margin: 1rem auto;
+  }
+}
+
+.changeAdress{
+  border:none;
+  margin-top: 10px;
+  background-color: #242424;
+  color: white;
+  font-family: Poppins;
+  padding: 10px;
+  border-radius: 5;
+  cursor:pointer;
+  outline: none;
+}

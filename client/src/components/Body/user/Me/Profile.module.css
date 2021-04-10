@@ -1,0 +1,312 @@
+.profileContainer {
+    width: 100%;
+}
+
+.contenedorGeneral {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem auto;
+    padding: 0;
+    width: 95%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.listItem1 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 28%;
+    margin: 0 2%;
+}
+
+.listItem2 {
+    width: 28%;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0 1.5%;
+}
+
+.listItem3 {
+    width: 28%;
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0 2%;
+}
+
+.datosContainer {
+    width: 30rem;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titleLi {
+    display: flex;
+    margin: 1rem auto;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    width: 60%;
+}
+
+.titleLiDir{
+    display: flex;
+    margin: 1rem auto;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    width: 45%;
+}
+
+.buttonDir{
+    color: white;
+    font-family: Poppins;
+    border: none;
+    background-color: #ff7b06;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    width: 75%;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.buttonDir:hover{
+    background-color: #f16800;
+}
+
+.dirContainer {
+    width: 50%;
+    text-align: center;
+}
+
+.nameLi {
+    font-weight: lighter;
+    color: white;
+
+}
+
+.nameLiDir {
+    font-weight: lighter;
+    color: white;
+    margin: 0 auto;
+}
+
+.birthday {
+    font-weight: lighter;
+    color: white;
+}
+
+.birthdayButton {
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    background-color: #ff7b06;
+    font-family: Poppins;
+    margin: 2rem auto;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    border-radius: 5px;
+    width: 80%;
+
+}
+
+.birthdayButton:hover {
+    background-color: #f16800;
+}
+
+.personalModal{
+    background-color: #1c1c1c;
+    width: 320px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius:5px;
+    -webkit-box-shadow: 2px 2px 5px #000;
+    -moz-box-shadow: 2px 2px 5px #000;
+
+}
+
+.personalModaliz{
+    background-color: #1c1c1c;
+    width: 570px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border-radius:5px;
+    -webkit-box-shadow: 2px 2px 5px #000;
+    -moz-box-shadow: 2px 2px 5px #000;
+}
+
+.personalModal h1{
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.editDirection{
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+}
+
+.personalModal label{
+    color: white;
+    font-weight: lighter;
+
+}
+
+.personalModal input{
+    background-color: #3f3f3f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-family: Poppins;
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.personalModaliz input{
+    background-color: #3f3f3f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    font-family: Poppins;
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.editor input{
+    width: 250px;
+    margin-right: 25px;
+}
+
+.saveButton{
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7b06;
+    color: white;
+    cursor: pointer;
+    padding: 15px 130px;
+    font-family: Poppins;
+    margin-top: 20px;
+    outline: none;
+}
+
+.buttonSaveDir{
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7b06;
+    color: white;
+    cursor: pointer;
+    padding: 15px 250px;
+    font-family: Poppins;
+    margin-top: 20px;
+    outline: none;
+}
+
+.buttonSaveDir:hover{
+    background-color: #f16800;
+}
+
+.saveButton:hover{
+    background-color: #f16800;
+
+}
+
+.closeButton{
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+    left: 83%;
+    top: 10%;
+    cursor: pointer;
+    outline: none;
+}
+
+.passButton{
+    background-color: #ff7b06;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 2rem auto;
+    outline: none;
+    width: 75%;
+    height: 3rem;
+}
+
+.passButton:hover{
+    background-color: #f16800;
+}
+
+.eyebutton{
+background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+
+@media (max-width: 1120px) {
+    .contenedorGeneral {
+        flex-direction: column;
+    }
+    .listItem1 {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .listItem2 {
+        width: 48%;
+        margin: 3rem auto;
+    }
+    .listItem3 {
+        width: 48%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .contenedorGeneral {
+        flex-direction: column;
+    }
+    .listItem1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .listItem2 {
+        width: 74%;
+        margin: 3rem auto;
+    }
+    .listItem3 {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

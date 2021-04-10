@@ -1,0 +1,129 @@
+.buttonsContainer {
+  background-color: #3f3f3f;
+  height: 1.2rem;
+  color: white;
+  padding: 30px;
+  align-content: center;
+}
+
+.categoriesContainer {
+  display: flex;
+  margin-top: -2rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  margin-top: -4rem;
+  font-size: 1.6rem;
+  justify-content: flex-end;
+  margin-top: -4.6rem;
+}
+
+.searchBar {
+  margin-right: 2.5rem;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  position: absolute;
+  right: 22rem;
+  outline: none;
+  width: 15%;
+}
+
+.listItem {
+  margin-right: 1.4rem;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+
+.loggedOutList {
+  display: flex;
+}
+
+.loggedInList {
+  display: flex;
+}
+
+.logOutButton {
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.greeting {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.cartNumber {
+  margin-left: 2px;
+  font-size: 16px;
+}
+
+@media (max-width: 1050px) {
+  .buttonsContainer{
+    align-content: center;
+  }
+  .list{
+    margin: auto;
+  }
+  .searchBar {
+    right: 0;
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 55%;
+    margin-top: 1.3rem;
+  }
+  .loggedOutList {
+    margin-top: 1.3rem;
+  }
+  .loggedInList {
+    margin-top: 0.7rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .buttonsContainer{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 4.5rem;
+  }
+  .searchBar {
+    right: 0;
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 17%;
+    margin-top: 1.3rem;
+  }
+  .loggedOutList {
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+  }
+  .loggedInList {
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    width: 75%;
+    justify-content: center;
+  }
+  .greeting{
+    display: none;
+  }
+  .listItem {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    width: 30%;
+  }
+}

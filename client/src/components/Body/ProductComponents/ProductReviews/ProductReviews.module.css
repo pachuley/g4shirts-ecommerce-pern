@@ -1,0 +1,159 @@
+.itemTable {
+  color: white;
+  font-weight: lighter;
+  text-align: left;
+  width: 300px;
+  border-bottom: 1px solid white;
+}
+
+.divisor {
+  height: 0.2rem;
+}
+
+.item {
+  color: white;
+  font-weight: lighter;
+  width: 300px;
+  background-color: #1c1c1c;
+  padding: 0 10px;
+}
+
+.buttonContainer {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.addReviewButton {
+  border: none;
+  color: white;
+  background-color: #ff7b06;
+  font-family: Poppins;
+  padding: 1rem 7.5em 1rem 7.5em;
+  font-weight: lighter;
+  display: flex;
+  margin-left: 6.5%;
+  outline: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #282828;
+  outline: none;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 2px 2px 5px #000;
+  -moz-box-shadow: 2px 2px 5px #000;
+  border-radius: 5px;
+}
+
+.contContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.campos {
+  display: flex;
+}
+
+.campos select {
+  border: none;
+  color: white;
+  background-color: #282828;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.campos input {
+  border: none;
+  color: white;
+  background-color: #1c1c1c;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-weight: lighter;
+  width: 200px;
+}
+
+.campos input::placeholder {
+  color: gray;
+}
+
+.campos2 {
+  display: flex;
+}
+
+.campos2 textarea {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  font-family: Poppins;
+  background-color: #1c1c1c;
+  color: white;
+  font-weight: lighter;
+  width: 268px;
+  margin-bottom: 20px;
+  margin-left: 14px;
+}
+
+.campos2 textarea::placeholder {
+  color: gray;
+  font-weight: lighter;
+}
+
+.sendButton {
+  border: none;
+  color: white;
+  background-color: #ff7b06;
+  outline: none;
+  font-family: Poppins;
+  font-weight: lighter;
+  border-radius: 5px;
+  height: 40px;
+  margin: 0 15px;
+}
+
+.sendButton:hover {
+  background-color: #f16800;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closeButton {
+  position: absolute;
+  left: 80%;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  top: 48px;
+}
+
+.contContainer h1 {
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.addReviewButton:hover {
+  background-color: #f16800;
+  cursor: pointer;
+  transition: 0.3s;
+}

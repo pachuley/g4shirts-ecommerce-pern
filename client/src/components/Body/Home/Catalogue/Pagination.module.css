@@ -1,0 +1,32 @@
+.paginationList {
+  color: white;
+  display: flex;
+}
+
+.paginationItem {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationItem button {
+  border: none;
+  background-color: #363636;
+  color: white;
+  font-family: Poppins;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #363636;
+  cursor: pointer;
+  outline: none;
+}
+
+.paginationItem button:hover {
+  border: 1px solid #ff7b06;
+  transition: 0.2s;
+}
+
+.paginationItem button:focus {
+  border: 1px solid #ff7b06;
+  transition: 0.2s;
+}

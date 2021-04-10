@@ -1,0 +1,390 @@
+.contTituloprinc {
+  background-color: #1c1c1c;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 7px;
+  width: 780px;
+  margin-right: 60px;
+}
+
+.tercDiv {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 7px;
+  width: 380px;
+  height: 130px;
+  margin-top: 30px;
+}
+
+.tercDivTit {
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.seleccionator {
+  border: none;
+  background-color: #3c3c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnAsign {
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #3c3c3c;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 32px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btnAsign:hover {
+  background-color: #ff7b06;
+  transition: 0.2s;
+}
+
+.modButt:hover {
+  background-color: #ff7b06;
+  transition: 0.2s;
+}
+
+.modButt {
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
+  background-color: #3c3c3c;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+}
+
+.tituloprinc {
+  color: white;
+  font-weight: lighter;
+}
+
+.trselector th {
+  color: white;
+  font-weight: lighter;
+}
+
+.cuartoDiv {
+  background-color: #1c1c1c;
+  padding: 30px;
+  width: 395px;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.itemSelec {
+  color: white;
+  font-weight: lighter;
+}
+
+.itemSelectortor {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  outline: none;
+  background-color: #3c3c3c;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.butonSelectortor {
+  color: white;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.butonSelectortor:hover {
+  background-color: #ff7b06;
+  transition: 0.2s;
+}
+
+.quinDiv {
+  background-color: #1c1c1c;
+  border-radius: 7px;
+  padding: 30px;
+  width: 1295px;
+  margin-left: 45px;
+  margin-right: 60px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sextodeev {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 7px;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 820px;
+}
+
+.thelast {
+  font-weight: lighter;
+}
+
+.sextodeevTit2 {
+  display: flex;
+}
+
+.trtrButt {
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+
+.sextodeevTit {
+  color: white;
+  font-weight: lighter;
+  margin-top: -13px;
+}
+
+.btnTrash {
+  background: none;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.ultimo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*hasta acá es mio (arriba)*/
+
+.productDescription {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.productCategoriesAndStock {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.productPhoto {
+  width: auto;
+  height: 20rem;
+  margin: 1rem;
+}
+
+/*cart styles*/
+
+.table {
+  color: white;
+}
+
+.table th {
+  font-weight: lighter;
+  padding: 0px 4rem;
+  border-bottom: 1px solid white;
+}
+
+.product {
+  font-weight: lighter;
+  padding: 5px;
+  color: white;
+}
+
+.tableCont {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 7px;
+  margin-top: 30px;
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+}
+
+.divisor {
+  margin: 0.5rem;
+}
+
+.button1 {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.button2 {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+.button3 {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  margin: 0 30px;
+}
+
+.button1:hover {
+  color: #ff7b06;
+  transition: 0.1s;
+}
+
+.button2:hover {
+  color: #fc3838;
+  transition: 0.1s;
+}
+
+.button3:hover {
+  color: #a7a7a7;
+  transition: 0.1s;
+}
+
+.check {
+  display: flex;
+  background-color: #1c1c1c;
+  padding: 3rem 1rem;
+  margin: 0.5rem 0 3rem 0;
+  width: 20rem;
+  color: white;
+  justify-content: center;
+}
+
+.ticket {
+  border-bottom: 1px solid white;
+  width: 17rem;
+  font-weight: lighter;
+  margin-top: -20px;
+}
+
+.inWait {
+  font-weight: lighter;
+  margin-top: -20px;
+  border-bottom: 1px solid white;
+  text-align: left;
+}
+
+.resumen {
+  display: flex;
+  font-weight: lighter;
+  margin-top: -20px;
+  border-bottom: 1px solid white;
+  text-align: right;
+  justify-content: space-between;
+  font-size: 19px;
+}
+
+.ticketList {
+  font-weight: lighter;
+  text-align: left;
+  margin-top: 0;
+}
+
+.buyButton {
+  margin-top: 15px;
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #ff7b06;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.clearButton {
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  background-color: #fc3838;
+  color: white;
+}
+
+.buyButton:hover {
+  background-color: #fc6907;
+  transition: 0.3s;
+}
+
+.clearButton:hover {
+  background-color: #e52424;
+  transition: 0.3s;
+}
+
+.modalContainer {
+  width: 400px;
+  height: 175px;
+  background-color: #363636;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  outline: none;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.modalContainer p {
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
+
+.warning {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.closeButton {
+  color: white;
+  border: none;
+  background: none;
+  position: absolute;
+  left: 85%;
+  top: 18%;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}

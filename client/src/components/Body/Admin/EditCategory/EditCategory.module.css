@@ -1,0 +1,44 @@
+.formIn {
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom:30px ;
+    margin-top: 25px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formIn input{
+    border: none;
+    padding: 10px;
+    background-color: #3c3c3c;
+    color: white;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    outline: none;
+}
+
+.formIn label{
+    color: white;
+    font-weight: lighter;
+
+}
+
+.hola{
+border: none;
+    padding: 10px;
+    margin-top: 20px;
+    color: #3c3c3c;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,236 @@
+.meContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.titleContainer {
+    text-align: center;
+}
+
+.table{
+    color: white;
+}
+
+.table th{
+    font-weight: lighter;
+    padding: 0px 4rem;
+    border-bottom: 1px solid white;
+}
+
+.product{
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.button1{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+
+.button2{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+}
+
+.button3{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 30px;
+}
+
+.button1:hover{
+   color: #ff7b06;
+    transition: .1s;
+}
+
+.button2:hover{
+    color: #fc3838;
+    transition: .1s;
+}
+
+.button3:hover{
+    color: #a7a7a7;
+    transition: .1s;
+}
+
+.check{
+    display: flex;
+    background-color: #1c1c1c;
+    padding: 3rem 1rem;
+    margin: 0.5rem 0 3rem 0 ;
+    width: 20rem;
+    color: white;
+    justify-content:center;
+}
+
+.ticket{
+    border-bottom: 1px solid white;
+    width: 17rem;
+    font-weight: lighter;
+    margin-top: -20px;
+}
+
+.inWait{
+    font-weight: lighter;
+    margin-top: -20px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+.resumen{
+    display: flex;
+    font-weight: lighter;
+    margin-top: -20px;
+    border-bottom: 1px solid white;
+    text-align: right;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.ticketList{
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 0;
+}
+
+.buyButton{
+    margin-top: 15px;
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #ff7b06;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.clearButton{
+
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color:  #fc3838;
+    color: white;
+
+}
+
+.buyButton:hover{
+    background-color: #fc6907;
+    transition: .3s;
+}
+
+.clearButton:hover{
+    background-color: #e52424;
+    transition: .3s;
+}
+
+.modalContainer{
+    width: 400px;
+    height: 175px;
+    background-color: #363636;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    outline: none;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.modalContainer p{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
+
+.warning{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.closeButton{
+    color: white;
+    border: none;
+    background: none;
+    position: absolute;
+    left: 85%;
+    top: 18%;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+}
+
+.categoria{
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.nombre{
+    font-weight: lighter;
+    color: #a29999;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 28px;
+    margin-top: -20px;
+}
+
+.cartCart{
+    justify-content: center;
+    display: flex;
+}
+
+.centerList{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttonCart{
+    border: none;
+    color: white;
+    background-color: #ff7b06;
+    padding: 15px 30px;
+    font-family: Poppins;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+
+
+}
+
+.buttonCart:hover{
+    background-color: #f16800;
+}
+
+@media (max-width: 900px) {
+    .cartCart {
+        display: none;
+    }
+}
